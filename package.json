@@ -1,11 +1,15 @@
 {
+  "homepage": "https://Rahul-Rampal0804.github.io/portfolio",
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "next build && next export",
     "start": "next start"
+    
   },
   "dependencies": {
     "next": "10.2.3",
