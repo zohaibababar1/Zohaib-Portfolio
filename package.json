@@ -3,13 +3,15 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider node src/index.js",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider node src/build.js"
-  },
+"scripts": {
+  "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider node src/index.js",
+  "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider node src/build.js"
+},
+
+
   "dependencies": {
     "next": "10.2.3",
     "react": "17.0.2",
@@ -19,7 +21,6 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3",
     "gh-pages": "^6.1.1"
   }
 }
