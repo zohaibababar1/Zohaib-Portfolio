@@ -7,8 +7,9 @@
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider node your-script.js",
-  "build": "NODE_OPTIONS=--openssl-legacy-provider node your-build-script.js"
+  "start": "NODE_OPTIONS=--openssl-legacy-provider node src/index.js",
+  "build": "NODE_OPTIONS=--openssl-legacy-provider node src/build.js"
+
     
   },
   "dependencies": {
