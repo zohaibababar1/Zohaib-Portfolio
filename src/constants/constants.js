@@ -1,37 +1,54 @@
 export const projects = [
   {
-    title: 'MERN-Stack Chat App',
-    description: "The “Chat Website” project is a dynamic web application that is used for real-time communication. The MERN stack, comprised of MongoDB, Express.js, React.js, and Node.js, is a powerful combination of technologies for developing robust and scalable web applications.",
+    title: 'Restaurant Delivery Application',
+    description: "A server-side application for a restaurant will manage orders, including a customer website for menu viewing and ordering, a processing site for handling orders, and a driver site for deliveries, using MongoDB for data storage.",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://github.com/Rahul-Rampal0804/Full-stack-apps',
-    visit: 'https://github.com/Rahul-Rampal0804/Full-stack-apps',
+      tags: ['MongoDB', 'ExpressJS', 'NodeJS'],
+    source: 'https://github.com/zohaibababar1/Restaurant-Delivery-Website',
+    visit: 'https://github.com/zohaibababar1/Restaurant-Delivery-Website',
     id: 0,
   },
   {
-    title: 'Google-Meet Clone',
-    description:"Successfully developed a Google Meet clone, leveraging WebRTC, MongoDB, React, Node.js, and Express, capable of handling up to 10 simultaneous devices, showcasing advanced proficiency in real-time communication technology stack integration",
+    title: 'Rental Property Management System',
+    description:"Develop two Android applications: Renter App and Landlord App, utilizing Firebase Firestore for data storage and Firebase Authentication for login/logout. The Renter App allows users to search/view rentals, while the Landlord App enables property listing management.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript','Firebase', 'WebRTC','WebSockets'],
-    source: 'https://github.com/Rahul-Rampal0804/fullstack',
-    visit: 'https://github.com/Rahul-Rampal0804/fullstack',
+    tags: ['Kotlin', 'XML','Firebase'],
+    source: 'https://github.com/zohaibababar1/Rental-Property-Management-App',
+    visit: 'https://github.com/zohaibababar1/Rental-Property-Management-App',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "Successfully Implemented a video chat app using WebRTC framework, it was able to handle 6-7 users at a time without any obstruction",
-      image: '/images/3.jpg',
+    title: 'Nature Walk Data',
+    description: "Created an iOS app using SwiftUI for a recreation facility, allowing users to log in, browse sessions, manage favorites, and share details. Admins can manage sessions and users. Utilized Firebase for authentication and real-time data, ensuring high code quality.",
+      image: '/images/3.png',
       tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/zohaibababar1/Nature-Walk-IOS-Application',
+    visit: 'https://github.com/zohaibababar1/Nature-Walk-IOS-Application',
     id: 2,
+  },
+  {
+    title: 'Lesson Management System',
+    description: "The app includes an Enter Your Name screen for personalization, a Welcome Back screen with progress updates, a Lessons List screen displaying course lessons, and a Lesson Details screen offering in-depth lesson information, objectives, multimedia, and interactive elements.",
+      image: '/images/4.png',
+      tags: ['Kotlin', 'XML','Data Persistence'],
+    source: 'https://github.com/zohaibababar1/Lesson-Management-In-Android',
+    visit: 'https://github.com/zohaibababar1/Lesson-Management-In-Android',
+    id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey as a software developer', },
-  { year: 2021, text: 'Worked as a software developer for Reliance Jio (Largest 5g internet provider of India)', },
-  { year: 2022, text: 'Joined PwC as a Backend Engineer/ Web Developer', },
-  { year: 2023, text: 'Upgraded myself in the field of Web Development as well as Software architecture', },
+  {
+    "year": 2020,
+    "text": "Commenced my professional journey as a software developer, acquiring foundational skills and gaining industry experience, setting the stage for a successful career."
+  },
+  {
+    "year": 2021,
+    "text": "Started as a Front End Developer at Heaven Technologies, focusing on efficient website creation, code optimization, and collaborating with UX/UI designers for enhanced user experiences."
+  },
+  {
+    "year": 2022,
+    "text": "Worked as an Associate Software Engineer at Heaven Technologies, serving as a Backend Engineer/Web Developer, and contributing to the development and scalability of backend systems."
+  },
   
 ];

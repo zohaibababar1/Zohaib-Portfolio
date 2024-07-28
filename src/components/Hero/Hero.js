@@ -10,10 +10,10 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          Rahul Rampal's Portfolio
+          Zohaib Ali's Portfolio
         </SectionTitle>
         <SectionText>
-        I have hands-on experience in the field of Software development, Web Development as well as Mobile app development, I am a full-stack software developer with a proven record.
+        Skilled in Swift, Kotlin, Node.js, React Native, Javascript,CSS,HTML and Python. Developed iOS and Android apps with Firebase integration. Created server-side applications using Node.js and MongoDB. Proficient in UI/UX design and front-end development.
         </SectionText>
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>

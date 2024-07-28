@@ -3,13 +3,12 @@ import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development as well as Software Development.
-      From Back-end To front-end
+      I have extensive experience working with a diverse array of technologies in both web and software development. My expertise spans from sophisticated back-end solutions to advanced front-end interfaces, demonstrating a comprehensive skill set in crafting seamless, high-performance applications.
     </SectionText>
     <List>
       <ListItem>
@@ -17,10 +16,10 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Front-End Development</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js, Html/CSS, React Native
+            Experience with <br />
+            React.js, HTML/CSS, React Native, ExpressJS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,10 +28,10 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End Development</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases (FireBase, MongoDB), C++
+            Node.js and Databases (Firebase, MongoDB, MySQL, SQLite, Room), C++
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +40,10 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Software Development/ Mobile App Development</ListTitle>
+          <ListTitle>Software Application Development</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java/Springboot, Kotlin, Swift
+            Kotlin, Swift, Node.js, React Native, JavaScript, HTML, CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
